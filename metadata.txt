@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Procesador datos Colector
+qgisMinimumVersion=3.0
+description=Plugin que funciona como complemento al plugin Colector. Su función es procesar las líneas base de la información recolectada haciendo uso de RTKLIB tanto para convertir los archivos binarios creados a partir de la colección, como para realizar la corrección diferencial.
+version=0.1
+author=Alexander Pretel Díaz
+email=alexander.pretel@correounivalle.edu.co
+
+about=Plugin que funciona como complemento al plugin Colector. Su función es procesar las líneas base de la información recolectada haciendo uso de RTKLIB tanto para convertir los archivos binarios creados a partir de la colección, como para realizar la corrección diferencial.
+
+tracker=https://github.com/AlexanderPretel/Procesador-de-Lineas-Base
+repository=https://github.com/AlexanderPretel/Procesador-de-Lineas-Base
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=processing
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
